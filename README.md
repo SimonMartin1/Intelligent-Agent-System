@@ -1,25 +1,38 @@
-<img width="577" height="53" alt="image" src="https://github.com/user-attachments/assets/a4776e69-c52f-42d3-be06-165cefd12198" />
+<p align="center">
+  <img width="577" height="53" alt="Banner del Proyecto" src="https://github.com/user-attachments/assets/a4776e69-c52f-42d3-be06-165cefd12198" />
+</p>
 
-<h1> Repositorio del Proyecto Integrador</h2>
+<h1 align="center">
+  Repositorio del Proyecto Integrador
+</h1>
 
-<b>Integrantes: </b><p>Simon Martin Sposito, Laura Velazquez, Facundo Jimenez, Matias Torres</p>
+## 👥 Integrantes
 
-<h2>El proyecto fue desarrollado en Google Colab por lo que sera mas facil probarlo en dicha herramienta pero igualmente puede ser testeado localmente haciendo unas leves modificaciones</h4>
+* Simon Martin Sposito
+* Laura Velazquez
+* Facundo Jimenez
+* Matias Torres
 
-<h3>Para probar el Agente de la ferreteria <b>"Proyecto_Agente_CACIC.py"</b> siga los siguientes pasos:</h3>
+## 🚀 Inicio Rápido
 
-<h4 style="color: red;">Paso 1:</h4> <p>Instale las librerias necesarias principalmente el archivo "requirements.txt".</p>
+> **Nota Importante:** El proyecto fue desarrollado en Google Colab, por lo que recomendamos probarlo en dicha herramienta. Puede ser testeado localmente haciendo unas leves modificaciones.
 
-<h4>Paso 2:</h4> <p>Añada las claves necesarias para los siguientes servicios que pueden ser obtenidas en los respectivos sitios webs.</p>
+---
 
-<ul>
-          <li>ID de la BD de Notion (debe crear una BD desde su espacio y conectarla con la API, para eso cree una conexion desde su perfil de integraciones luego en la configuracion de su BD vaya a compartir añadir conexion)</li>
-          <li>Token de API de Notion https://developers.notion.com</li>
-          <li>Clave de la API de Google AI Studio https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwixnb7Bwb2QAxUXlZUCHQVaEu4QFnoECCMQAQ&url=https%3A%2F%2Faistudio.google.com%2F&usg=AOvVaw2ado6WVRi8CYsaHcreSChK&opi=89978449</li>
-          <li>Clave de la API de LangChain smith.langchain.com</li>
-          <li>Nombre del Proyecto de LangChain (opcional) si no quiere que el seguimiento se registre en el proyecto default</li>
-          <li>Clave de la API de Tavily https://app.tavily.com/home</li>
-</ul>
+## 🛠️ Instrucciones de Configuración
 
-<h4>Paso Extra:</h4>  <p>En caso de estarlo probando locamente asegurece de comentar/eliminar los pip install</p>
+Sigue estos pasos para probar el agente de la ferretería **"Proyecto\_Agente\_CACIC.py"**.
 
+### 1. Instalación
+
+Instala todas las librerías necesarias. La forma más fácil es usando el archivo `requirements.txt`:
+
+### 2. El agente necesita varias claves de API para funcionar. Añádelas a tu entorno o bien importalas en un archivo .env
+
+Servicio,Dónde Encontrarla
+Notion DB ID,ID de tu Base de Datos de Notion. (Crea una BD y conecta tu integración).
+Notion API Token,developers.notion.com
+Google AI API Key,aistudio.google.com
+LangSmith API Key,smith.langchain.com
+Tavily API Key,app.tavily.com/home
+LangSmith Project Name,(Opcional) Úsalo si no quieres que el seguimiento se registre en el proyecto default.
