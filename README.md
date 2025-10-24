@@ -2,7 +2,7 @@
 
 <h2> Repositorio del Proyecto Integrador</h2>
 
-<h3>Para probar el Agente de la ferreteria "Proyecto_Agente_CACIC.py" siga los siguientes pasos:</h3>
+<h3>Para probar el Agente de la ferreteria <b>"Proyecto_Agente_CACIC.py"</b> siga los siguientes pasos:</h3>
 
 <h4>Detalle: El proyecto fue desarrollado en Google Colab por lo que sera mas facil correr el algoritmo en dicha herramienta pero igualmente puede ser probado localmente haciendo unas leves modificaciones</h4>
 
