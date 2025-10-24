@@ -15,7 +15,7 @@
           <li>Token de API de Notion https://developers.notion.com</li>
           <li>Clave de la API de Google AI Studio https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwixnb7Bwb2QAxUXlZUCHQVaEu4QFnoECCMQAQ&url=https%3A%2F%2Faistudio.google.com%2F&usg=AOvVaw2ado6WVRi8CYsaHcreSChK&opi=89978449</li>
           <li>Clave de la API de LangChain smith.langchain.com</li>
-          <li>Nombre del Proyecto de LangChain (opcional)</li>
+          <li>Nombre del Proyecto de LangChain (opcional) si no quiere que el seguimiento se registre en el proyecto default</li>
           <li>Clave de la API de Tavily https://app.tavily.com/home</li>
 </ul>
 
