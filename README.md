@@ -2,7 +2,9 @@
 
 <h1> Repositorio del Proyecto Integrador</h2>
 
-<h2>El proyecto fue desarrollado en Google Colab por lo que sera mas facil correr el algoritmo en dicha herramienta pero igualmente puede ser probado localmente haciendo unas leves modificaciones</h4>
+<p>Integrantes: Simon Martin Sposito, Laura Velazquez, Facundo Jimenez, Matias Torres</p>
+
+<h2>El proyecto fue desarrollado en Google Colab por lo que sera mas facil probarlo en dicha herramienta pero igualmente puede ser testeado localmente haciendo unas leves modificaciones</h4>
 
 <h3>Para probar el Agente de la ferreteria <b>"Proyecto_Agente_CACIC.py"</b> siga los siguientes pasos:</h3>
 
