@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ### 2\. Configuración de Claves (API Keys)
 
-El agente necesita varias claves de API para funcionar. Añádelas a tu entorno (en Colab se hace desde la pestaña "Secrets" 🔑).
+El agente necesita varias claves de API para funcionar. Añádelas a tu codigo/entorno (en Colab se hace desde la pestaña "Secrets" 🔑).
 
 | Servicio | Dónde Encontrarla |
 | :--- | :--- |
