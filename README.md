@@ -13,7 +13,7 @@
 <ul>
           <li>ID de la BD de Notion (debe crear una BD desde su espacio y conectarla con la API, para eso cree una conexion desde su perfil de integraciones luego en la configuracion de su BD vaya a compartir añadir conexion)</li>
           <li>Token de API de Notion https://developers.notion.com</li>
-          <li>Clave de la API de Google AI Studio https://aistudio.google.com/welcome?utm_source=google&utm_medium=cpc&utm_campaign=FY25-global-DR-gsem-BKWS-1710442&utm_content=text-ad-none-any-DEV_c-CRE_736763515199-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt-AI%20Studio%20(Growth)-AI%20Studio-KWID_1276544732073-aud-2306308323534:kwd-1276544732073&utm_term=KW_google%20ai%20studio-ST_google%20ai%20studio&gclsrc=aw.ds&gad_source=1&gad_campaignid=22307834762&gclid=CjwKCAjwx-zHBhBhEiwA7Kjq68EnXuVyIovj-7a7E8b4qJJMuvlrrTGTpQPdc7duSvcUdsZU1nV83hoCJbgQAvD_BwE</li>
+          <li>Clave de la API de Google AI Studio https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwixnb7Bwb2QAxUXlZUCHQVaEu4QFnoECCMQAQ&url=https%3A%2F%2Faistudio.google.com%2F&usg=AOvVaw2ado6WVRi8CYsaHcreSChK&opi=89978449</li>
           <li>Clave de la API de LangChain smith.langchain.com</li>
           <li>Nombre del Proyecto de LangChain (opcional)</li>
           <li>Clave de la API de Tavily https://app.tavily.com/home</li>
