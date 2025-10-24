@@ -19,20 +19,29 @@
 
 ---
 
-## 🛠️ Instrucciones de Configuración
-
-Sigue estos pasos para probar el agente de la ferretería **"Proyecto\_Agente\_CACIC.py"**.
+Sigue estos pasos para poner en marcha el agente de la ferretería **"Proyecto\_Agente\_CACIC.py"**.
 
 ### 1. Instalación
 
 Instala todas las librerías necesarias. La forma más fácil es usando el archivo `requirements.txt`:
 
-### 2. El agente necesita varias claves de API para funcionar. Añádelas a tu entorno o bien importalas en un archivo .env
+```bash
+pip install -r requirements.txt
+````
 
-Servicio,Dónde Encontrarla
-Notion DB ID,ID de tu Base de Datos de Notion. (Crea una BD y conecta tu integración).
-Notion API Token,developers.notion.com
-Google AI API Key,aistudio.google.com
-LangSmith API Key,smith.langchain.com
-Tavily API Key,app.tavily.com/home
-LangSmith Project Name,(Opcional) Úsalo si no quieres que el seguimiento se registre en el proyecto default.
+### 2\. Configuración de Claves (API Keys)
+
+El agente necesita varias claves de API para funcionar. Añádelas a tu entorno (en Colab se hace desde la pestaña "Secrets" 🔑).
+
+| Servicio | Dónde Encontrarla |
+| :--- | :--- |
+| **Notion DB ID** | ID de tu Base de Datos de Notion. (Crea una BD y conecta tu integración). |
+| **Notion API Token** | [developers.notion.com](https://developers.notion.com) |
+| **Google AI API Key** | [aistudio.google.com](https://aistudio.google.com/) |
+| **LangSmith API Key** | [smith.langchain.com](https://smith.langchain.com) |
+| **Tavily API Key** | [app.tavily.com/home](https://app.tavily.com/home) |
+| **LangSmith Project Name**| (Opcional) Úsalo si no quieres que el seguimiento se registre en el proyecto `default`. |
+
+### 💻 Nota sobre Pruebas Locales
+
+> En caso de estar probando localmente, asegúrate de **comentar o eliminar** todas las líneas que contengan `!pip install ...` en el script o notebook.
