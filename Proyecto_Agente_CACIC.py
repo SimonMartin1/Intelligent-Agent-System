@@ -55,7 +55,7 @@ TAVILY_API_KEY = userdata.get('TAVILY_API_KEY')
 
 """Traqueo LangSmith"""
 
-from langsmith import Client
+from langsmith import Client, traceable
 import os
 # 1. Habilita el "traceo" (seguimiento)
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
@@ -470,6 +470,7 @@ def route_informant(state: AgentState) -> Literal["notion", "__end__"]:
 
     return "__end__"
 
+@traceable(run_type="chain", name="Construir grafo")
 def build_graph(llm,llm_with_tools, tools_list,llm_with_notion,notion_tool):
     """Construye y compila el grafo del agente mozo."""
 
